@@ -14,25 +14,3 @@ Dataset includes:
 ## Methods
 
 We perform power spectral analysis to compare the power in alpha and gamma bands between the different groups.
-
-## Reproduction
-
-1. Clone this repository
-2. Download the dataset from OpenNeuro: https://openneuro.org/datasets/ds004504
-3. Place the dataset in a `data/ds004504` directory
-4. Run the notebook
-## Dataset Setup
-
-1. Clone this repository
-2. Create a data directory: `mkdir -p data`
-3. Download the dataset:
-   - Option 1: Using DataLad (requires git-annex and datalad installed)
-     ```
-     cd data
-     datalad install https://github.com/OpenNeuroDatasets/ds004504.git
-     cd ds004504
-     git annex get derivatives/sub-001/eeg/sub-001_task-eyesclosed_eeg.set
-     git annex get participants.tsv participants.json
-     ```
-   - Option 2: Download from [OpenNeuro](https://openneuro.org/datasets/ds004504)
-4. Ensure the dataset is in the `data/ds004504` directory for the code to work
