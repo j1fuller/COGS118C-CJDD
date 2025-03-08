@@ -7,9 +7,9 @@ This project analyzes EEG data from patients with Alzheimer's disease, Frontotem
 We use the "A Dataset of Scalp EEG Recordings of Alzheimer's Disease, Frontotemporal Dementia and Healthy Subjects from Routine EEG" from OpenNeuro (ds004504).
 
 Dataset includes:
-- 36 Alzheimer's disease patients
-- 23 Frontotemporal Dementia patients
-- 29 healthy controls
+- 10 Alzheimer's disease patients
+- 10 Frontotemporal Dementia patients
+- 10 healthy controls
 
 ## Methods
 
